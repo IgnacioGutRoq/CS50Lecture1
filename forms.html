@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>CS50 Lecture 1</title>
+    <style>
+      #dataentry1{
+        border: 2px;
+        border-collapse: collapse;
+      }
+      #options1{
+        border: 2px;
+      }
+      #options2{
+        border: 2px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>hello</h1>
+    <div id="dataentry1">
+      <input type="text" name="name" placeholder="Name">
+      <input type="password" name="password" placeholder="Password">
+    </div>
+    <div id="options1">
+      Favourite color?
+      <input type="radio" name="red" value="red"> Red
+      <input type="radio" name="green" value="green"> Green
+      <input type="radio" name="brown" value="brown"> Brown
+      <input type="radio" name="blue" value="blue"> Blue
+      <input type="radio" name="black" value="black"> Black
+      </div>
+      <div id="options2">
+        <input name="country" list="countries" placeholder="Country">
+        <datalist id="countries">
+          <option value="Chile">
+          <option value="Argentina">
+
+        </datalist>
+      </div>
+  </body>
+</html>
